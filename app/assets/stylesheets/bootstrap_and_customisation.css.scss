@@ -1,0 +1,72 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+@import 'bootstrap';
+
+body {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+.jumbotron {
+	text-align: center;
+	background-image: url('harvest.jpg');
+}
+
+
+ul.nav, .jumbotron h1 {
+	font-family: 'Helvetica Neue', Helvetica;
+}
+
+.jumbotron h1 {
+
+	margin-bottom: 50px;
+}
+
+.jumbotron p {
+	font-family: 'Helvetica Neue', Helvetica;
+	margin-bottom: 30px;
+	padding: 0 50px;
+
+}
+
+ul.nav {
+	font-size: 14px;
+}
+
+
+.btn-lg {
+	font-size: 30px;
+}
+
+.emphasis {
+	color: red;
+
+}
+
+.homepage {
+	text-align: center;
+}
+
+.homepage h2, .homepage h3 {
+	color: #e74c3c;
+	font-family: 'Helvetica Neue', arial, serif;
+	text-transform: uppercase;
+
+}
+.homepage h2 {
+	font-size: 30px;
+}
+
+.homepage h3 {
+	font-size: 26px;
+}
+
+.homepage p {
+	font-size: 20px;
+}
+
+
+.homepage hr {
+	border-top: 1px solid #e743c3;
+	width: 100px;
+	margin-top: 15px;
+}
