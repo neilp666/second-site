@@ -3,8 +3,9 @@
 
 body {
 	padding-top: 50px;
-	padding-bottom: 20px;
 }
+
+
 
 .jumbotron {
 	text-align: center;
@@ -14,6 +15,10 @@ body {
 
 ul.nav, .jumbotron h1 {
 	font-family: 'Helvetica Neue', Helvetica;
+}
+
+#get-involved {
+	background-color: #F5F5F5;
 }
 
 .jumbotron h1 {
@@ -32,6 +37,11 @@ ul.nav {
 	font-size: 14px;
 }
 
+footer {
+	background-color: #f74c3c;
+	padding-top: 150px;
+	padding-bottom: 30px;
+}
 
 .btn-lg {
 	font-size: 30px;
@@ -44,6 +54,8 @@ ul.nav {
 
 .homepage {
 	text-align: center;
+	padding-bottom: 30px;
+	padding-top: 30px;
 }
 
 .homepage h2, .homepage h3 {
@@ -69,4 +81,10 @@ ul.nav {
 	border-top: 1px solid #e743c3;
 	width: 100px;
 	margin-top: 15px;
+}
+
+.homepage a:hover {
+	color: #e74c3c;
+	text-decoration: none;
+	opacity: .0;
 }
